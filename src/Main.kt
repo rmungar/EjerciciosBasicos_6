@@ -1,5 +1,5 @@
 fun main(){
-    val compras = Domiciliacion(
+    val compras = Compra(
         listOf<List<Any>>(
             listOf("Nuria Costa", 5, 12780.78, "Calle Las Flores 355"),
             listOf("Jorge Russo", 7, 699, "Mirasol 218"),

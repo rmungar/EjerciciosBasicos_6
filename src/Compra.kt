@@ -1,10 +1,9 @@
-class Domiciliacion(var compras: List<List<Any>>){
-
+class Compra(var compras: List<List<Any>>){
     /**
      * La funcion separador toma el objeto (lista) predefinida en el main() y la recorrerá para añadir a otra lista los
      * domicilios de los clientes sin que estos se repitan.
      *
-     * @return datos: List<String> con los domicilios de los clientes.
+     * @return datos -> con los domicilios de los clientes.
      */
     fun separador(): List<String> {
         val clientes = this.compras
@@ -22,7 +21,7 @@ class Domiciliacion(var compras: List<List<Any>>){
     /**
      * Esta funcion recoge la lista de domicilios y los imprime por separado
      *
-     * @param datos : List<String> lista con las direcciones de los clientes
+     * @param datos -> lista con las direcciones de los clientes
      */
     fun imprimirDirecciones(datos:List<String>){
         for (direccion in datos){
